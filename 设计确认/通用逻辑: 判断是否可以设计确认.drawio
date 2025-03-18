@@ -1,9 +1,109 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="qlFL-PHHKUGrsNro6g1Y">
-    <mxGraphModel>
+    <mxGraphModel dx="4298" dy="2845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o53CzrR3rDvdkXvWrwgg-2" target="o53CzrR3rDvdkXvWrwgg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-2" value="开始" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="350" y="-120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o53CzrR3rDvdkXvWrwgg-14" target="o53CzrR3rDvdkXvWrwgg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-4" value="否，设计不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="o53CzrR3rDvdkXvWrwgg-3">
+          <mxGeometry x="-0.3609" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o53CzrR3rDvdkXvWrwgg-14" target="o53CzrR3rDvdkXvWrwgg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-6" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="o53CzrR3rDvdkXvWrwgg-5">
+          <mxGeometry x="-0.1036" y="126" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-7" value="结束，报错" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="40" y="-120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o53CzrR3rDvdkXvWrwgg-9" target="o53CzrR3rDvdkXvWrwgg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-9" value="设计是否处已确认&lt;div&gt;（已确认则继续，因为医生点击确认的时候设计状态已经被同步改为是）&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="275" y="240" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="o53CzrR3rDvdkXvWrwgg-9" target="o53CzrR3rDvdkXvWrwgg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-11" value="否，设计确认已撤回，该任务不再执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="o53CzrR3rDvdkXvWrwgg-10">
+          <mxGeometry x="-0.3123" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="获取设计数据" test="哦哦" id="o53CzrR3rDvdkXvWrwgg-12">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="353.5" y="0.0036842105263161784" width="73" height="34.73684210526316" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o53CzrR3rDvdkXvWrwgg-12" target="o53CzrR3rDvdkXvWrwgg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-14" value="设计（design）是否处存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="316.75" y="100" width="146.5" height="57.89" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o53CzrR3rDvdkXvWrwgg-16" target="o53CzrR3rDvdkXvWrwgg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-16" value="获取当前阶段设计确认（is_revoke=false的design_confirm）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o53CzrR3rDvdkXvWrwgg-21" target="o53CzrR3rDvdkXvWrwgg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-18" value="是，设计已确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="o53CzrR3rDvdkXvWrwgg-17">
+          <mxGeometry x="-0.4857" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o53CzrR3rDvdkXvWrwgg-21" target="o53CzrR3rDvdkXvWrwgg-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-20" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="o53CzrR3rDvdkXvWrwgg-19">
+          <mxGeometry x="-0.1746" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-21" value="存在" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o53CzrR3rDvdkXvWrwgg-23" target="o53CzrR3rDvdkXvWrwgg-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-23" value="获取患者信息（patient）" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o53CzrR3rDvdkXvWrwgg-25" target="o53CzrR3rDvdkXvWrwgg-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-25" value="存在" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=15.000000000000002;entryPerimeter=0;" edge="1" parent="1" source="o53CzrR3rDvdkXvWrwgg-25" target="o53CzrR3rDvdkXvWrwgg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-27" value="否，患者信息不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="o53CzrR3rDvdkXvWrwgg-26">
+          <mxGeometry x="-0.5805" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o53CzrR3rDvdkXvWrwgg-28" value="结束" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="350" y="1060" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
